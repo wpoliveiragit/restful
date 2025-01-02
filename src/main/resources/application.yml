@@ -1,0 +1,16 @@
+# Conexão com o DB H2
+spring.datasource.url: 'jdbc:h2:mem:testdb'
+spring.datasource.driver-class-name: 'org.h2.Driver'
+spring.datasource.username: 'sa'
+spring.datasource.password: null
+
+# Configurações do H2
+spring.h2.console.enabled: true # Configuração do console
+
+# Configurações do JPA
+spring.jpa.show-sql: true
+spring.jpa.hibernate.ddl-auto: update
+
+# Configuração de logs
+logging.level.org.springframework: INFO
+logging.level.com.exemplo.hexagonal: DEBUG
